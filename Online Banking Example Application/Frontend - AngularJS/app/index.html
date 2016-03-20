@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="onlineBanking" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base href="/">
+
+	<title>Online Banking</title>
+
+	<link href="app.less" type="text/css" rel="stylesheet/less">
+	<link rel="icon" href="favicon.png?v=2" type="image/png">
+
+
+</head>
+<body>
+
+	<div class="layout">
+		<div class="layout__header" ui-view="header"></div>
+		<div class="layout__body" ui-view="body"></div>
+	</div>
+
+	<!-- JS that is for development only -->
+	<script src="http://localhost:35729/livereload.js"></script>
+	<script src="bower_components/less.js/dist/less.js"></script>
+
+	<!-- JS from bower_components and vendor -->
+
+	<script src="bower_components/lodash/lodash.js" data-vendor="true"></script>
+	<script src="bower_components/jquery/dist/jquery.js" data-vendor="true"></script>
+	<script src="bower_components/angular/angular.js" data-vendor="true"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js" data-vendor="true"></script>
+	<script src="bower_components/angular-resource/angular-resource.js" data-vendor="true"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js" data-vendor="true"></script>
+
+
+	<!-- Main App JS -->
+	<script src="app.js" data-app="true"></script>
+
+	<script src="app/core/core.js" data-app="true"></script>
+	<script src="app/core/core.constants.js" data-app="true"></script>
+	<script src="app/core/core.routes.js" data-app="true"></script>
+	<script src="app/core/providers/viewsProvider.js" data-app="true"></script>
+
+	<script src="app/onboarding/onboarding.js" data-app="true"></script>
+	<script src="app/onboarding/onboarding.routes.js" data-app="true"></script>
+	<script src="app/onboarding/components/onboardingComponent/onboardingComponent.js" data-app="true"></script>
+	<script src="app/onboarding/components/onboardingHeaderComponent/onboardingHeaderComponent.js" data-app="true"></script>
+	<script src="app/onboarding/directives/forgotPasswordDirective/forgotPasswordDirective.js" data-app="true"></script>
+	<script src="app/onboarding/directives/loginDirective/loginDirective.js" data-app="true"></script>
+	<script src="app/onboarding/directives/onboardingFormsDirective/onboardingFormsDirective.js" data-app="true"></script>
+	<script src="app/onboarding/directives/onboardingTabsDirective/onboardingTabsDirective.js" data-app="true"></script>
+	<script src="app/onboarding/directives/registerDirective/registerDirective.js" data-app="true"></script>
+
+</body>
+</html>

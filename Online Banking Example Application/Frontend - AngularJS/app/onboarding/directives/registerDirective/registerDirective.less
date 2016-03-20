@@ -1,0 +1,51 @@
+
+.registerDirective__form {
+    background-color: @color-gray-02;
+    padding: 20px;
+    .display(flex);
+    .flex-direction(column);
+
+    label {
+        .flex(0 0 auto);
+        .display(flex);
+        .align-items(center);
+    }
+
+    input {
+        .flex(1 0 auto);
+    }
+}
+
+.registerDirective__title {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.registerDirective__instructions {
+    margin-bottom: 10px;
+}
+
+.registerDirective__emailLabel {
+    .flex(0 0 80px);
+    .align-content(middle);
+    display: inline-block;
+}
+
+.registerDirective__passwordLabel {
+    .flex(0 0 80px);
+    display: inline-block;
+}
+
+.registerDirective__confirmPasswordLabel {
+    .flex(0 0 80px);
+    display: inline-block;
+}
+
+.buttonContainer {
+    .display(flex);
+    margin-top: 7px;
+}
+
+.registerDirective__submit {
+    margin: 0 !important;
+    .flex(1 0 auto);
+}

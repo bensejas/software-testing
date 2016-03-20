@@ -1,0 +1,44 @@
+
+.loginDirective__form {
+    background-color: @color-gray-02;
+    padding: 20px;
+    .display(flex);
+    .flex-direction(column);
+
+    label {
+        .flex(0 0 auto);
+        .display(flex);
+        .align-items(center);
+    }
+
+    input {
+        .flex(1 0 auto);
+        margin-left: 10px;
+    }
+}
+
+.loginDirective__form__title {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.loginDirective__form__loginIdLabel {
+    .flex(0 0 70px);
+    .align-content(middle);
+    display: inline-block;
+}
+
+.loginDirective__form__passwordLabel {
+    .flex(0 0 70px);
+    display: inline-block;
+}
+
+.buttonContainer {
+    .display(flex);
+    margin-top: 7px;
+}
+
+.loginDirective__form__submit {
+    margin: 0 !important;
+    .flex(1 0 auto);
+}

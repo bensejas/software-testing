@@ -1,0 +1,93 @@
+// Variables
+@font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+@font-weight: normal;
+
+@font-size: 14px;
+@font-size-xs: 12px;
+@font-size-sm: 13px;
+@font-size-md: 18px;
+@font-size-lg: 21px;
+@font-size-xl: 24px;
+@font-size-xxl: 36px;
+
+@text-color: @color-black-01;
+@heading-color: @color-black-01;
+@background-color: @color-gray-01;
+
+@element-transition: 0.2s ease all;
+
+// Styling
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: @text-color;
+    font-family: @font-family;
+    font-size: @font-size;
+    font-weight: @font-weight;
+    line-height: 1.4em;
+    background-color: @color-gray-01;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: @heading-color;
+}
+
+h1 {
+    font-size: @font-size-xxl;
+    line-height: 1.25em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: @font-size-xl;
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: @font-size-lg;
+    line-height: 1.25em;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: @font-size-md;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: @font-size;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: @font-size-sm;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: none;
+}
+
+input,
+select,
+textarea {
+    min-width: 25px;
+}

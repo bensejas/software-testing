@@ -1,0 +1,6 @@
+<div class="onboardingFormsDirective">
+    <ob-onboarding-tabs-directive></ob-onboarding-tabs-directive>
+    <ob-login-directive ng-if="!$stateParams.view || $stateParams.view === 'login'"></ob-login-directive>
+    <ob-forgot-password-directive ng-if="$stateParams.view === 'forgotPassword'"></ob-forgot-password-directive>
+    <ob-register-directive ng-if="$stateParams.view === 'register'"></ob-register-directive>
+</div>

@@ -1,0 +1,24 @@
+.onboardingTabsDirective {
+    .display(flex);
+
+    .tab {
+        background-color: @color-gray-05;
+        .flex(1 1 auto);
+        text-align: center;
+        padding: 5px 0px;
+        cursor: pointer;
+        border-right: 1px solid @color-gray-07;
+
+        &:hover {
+            background-color: @color-gray-02;
+        }
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    .active {
+        background-color: @color-gray-02;
+    }
+}

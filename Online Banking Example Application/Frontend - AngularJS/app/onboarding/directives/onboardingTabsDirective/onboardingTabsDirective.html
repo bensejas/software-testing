@@ -1,0 +1,13 @@
+<div class="onboardingTabsDirective">
+    <div class="onboardingTabsDirective__login tab"
+         ng-class="{'active':!$stateParams.view || $stateParams.view === 'login' }"
+         ui-sref="onboarding({view:'login'})">Login
+    </div>
+    <div class="onboardingTabsDirective__forgotPassword tab"
+         ng-class="{'active':$stateParams.view === 'forgotPassword' }" ui-sref="onboarding({view:'forgotPassword'})">
+        Forgot Password?
+    </div>
+    <div class="onboardingTabsDirective__register tab" ng-class="{'active':$stateParams.view === 'register' }"
+         ui-sref="onboarding({view:'register'})">Register
+    </div>
+</div>
