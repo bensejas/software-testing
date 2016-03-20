@@ -10,13 +10,13 @@ For development:
 
 For testing:
 * Java
-* * Unit Tests
-* * System Tests
-* * End to End Tests using Selenium
+  * Unit Tests
+  * System Tests
+  * End to End Tests using Selenium
 * AngularJS
-* * Unit Tests
-* * Integration Tests
-* * End to End Tests using Protractor in BDD format (Cucumber)
+  * Unit Tests
+  * Integration Tests
+  * End to End Tests using Protractor in BDD format (Cucumber)
 
 ## Getting Started
 
