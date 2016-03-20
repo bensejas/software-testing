@@ -17,6 +17,8 @@ For testing:
   * Unit Tests
   * Integration Tests
   * End to End Tests using Protractor in BDD format (Cucumber)
+* Manual
+  * Exploratory testing using mindmaps
 
 ## Getting Started
 
